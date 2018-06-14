@@ -1,0 +1,104 @@
+body {
+  background-color:black;
+  color:white;
+}
+.header {
+  color:white;
+}
+.header:hover {
+  color:#ffc53e;
+  cursor:pointer;
+}
+.space {
+  height:70px;
+  width:96vw;
+  margin:auto;
+}
+#codepenLink {
+  color:white;
+  text-decoration:none;
+}
+.row div {
+  text-align:center;
+  border:solid black 2px;
+}
+.grid {
+  display:flex;
+  flex-wrap:wrap;
+  margin:0 3vw;
+  padding:0;
+  box-sizing:border-box;
+}
+.single {
+  position:relative;
+  padding:10px;
+  margin:1vh 0;
+}
+.iframe-wrap {
+  border:2px solid purple;
+  position:relative;
+  padding-top:50%;
+}
+iframe {
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.underLink {
+  border:1px solid black;
+  text-align:center;
+  margin:auto;
+  background-color:lightblue;
+}
+.codePenLink {
+  color:red;
+  font-size:120%;
+}
+.contactInfo {
+  text-align:center;
+  margin-top:4vh;
+  text-shadow:-2px 0px black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#winePic {
+  margin:auto;
+  width:98vw;
+  height:100vh;
+  background-image:url(https://images.unsplash.com/photo-1515875071256-3c9d908eb803?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9cbdbe452e9f6bb222441a20f27c319&auto=format&fit=crop&w=1434&q=80);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.pic {
+  margin:auto;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  width:100%;
+}
+.row div {
+  border:none;
+}
+#beerPic {
+  background-image:url(https://images.unsplash.com/photo-1445140463371-d8036feedc2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=733ea6bce7a4ec3571b9a8ba39387bb7&auto=format&fit=crop&w=1352&q=80);
+}
+#vineyardPic {
+  background-image:url(https://images.unsplash.com/photo-1502285254372-2cb4d1b0993b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a8356d171134310e643e5345b3a6781&auto=format&fit=crop&w=1050&q=80);
+}
+#massePic {
+  background-image:url(https://images.unsplash.com/photo-1518176258769-f227c798150e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c2f65a2019b066f34061dfe4afb41bb4&auto=format&fit=crop&w=1189&q=80);
+}
+#personal {
+  position:absolute;
+  font-size:110%;
+  right:5px;
+  bottom:55px;
+  width:330px;
+  height:50px;
+  margin:auto;
+  text-shadow:-2px 0px black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#bottom {
+  padding-bottom:70px;
+}
